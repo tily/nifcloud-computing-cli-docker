@@ -9,6 +9,6 @@ $ cat .env
 NIFTY_CLOUD_URL=https://west-1.cp.cloud.nifty.com/api/
 NIFTY_ACCESS_KEY_ID=XXXXXXXXXXXXXXXXXXXX
 NIFTY_SECRET_KEY=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
-$ docker run --env-file .env --rm -ti niftycloud-computing-cli nifty-describe-instances
+$ docker run --env-file .env --rm tily/niftycloud-computing-cli nifty-describe-instances
 ```
 
