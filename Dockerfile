@@ -1,4 +1,5 @@
 FROM java
+
 RUN cd /tmp && \
   wget http://cloud.nifty.com/api/sdk/NIFTY_Cloud_api-tools.zip && \
   unzip NIFTY_Cloud_api-tools.zip && \
