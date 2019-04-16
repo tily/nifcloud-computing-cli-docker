@@ -1,6 +1,6 @@
-# niftycloud-computing-cli-docker
+# nifcloud-computing-cli-docker
 
-Docker image for [NIFTYCloud Computing CLI](http://cloud.nifty.com/api/cli/)
+Docker image for [NIFCLOUD Computing CLI](http://cloud.nifty.com/api/cli/)
 
 ## Usage
 
