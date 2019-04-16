@@ -1,4 +1,4 @@
-FROM java
+FROM openjdk:8
 
 RUN cd /tmp && \
   wget http://cloud.nifty.com/api/sdk/NIFTY_Cloud_api-tools.zip && \
