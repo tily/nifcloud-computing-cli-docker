@@ -1,10 +1,10 @@
 FROM openjdk:8
 
 RUN cd /tmp && \
-  wget http://cloud.nifty.com/api/sdk/NIFTY_Cloud_api-tools.zip && \
-  unzip NIFTY_Cloud_api-tools.zip && \
-  mv NIFTY_Cloud_api-tools /usr/local/app && \
-  rm NIFTY_Cloud_api-tools.zip
+  wget https://pfs.nifcloud.com/api/sdk/java8/NIFCLOUD_api-tools_8.0.0.zip && \
+  unzip NIFCLOUD_api-tools_8.0.0.zip && \
+  mv NIFCLOUD_api-tools_8.0.0 /usr/local/app && \
+  rm NIFCLOUD_api-tools_8.0.0.zip
 
 RUN chmod +x /usr/local/app/bin/*
 WORKDIR /usr/local/app
